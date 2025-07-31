@@ -1,4 +1,4 @@
 FROM alpine
-COPY trigger-6am.sh /trigger.sh
+COPY trigger-12pm.sh /trigger.sh
 RUN chmod +x /trigger.sh
 CMD ["/trigger.sh"]
